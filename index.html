@@ -18,7 +18,7 @@
             font-family: 'Dancing Script', cursive
         }
 
-        .page-title {
+        #page-title {
             padding: 0 0.25em;
             background-color: #fff;
             border-radius: .5em;
@@ -26,13 +26,19 @@
             font-size: 5em;
             z-index: 999;
         }
+
+        @media screen and (max-width: 600px) {
+            #page-title {
+                font-size: 2em;
+            }
+        }
     </style>
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 
-    <div class="position-absolute m-3 page-title dancing-script">Tinas Tierchen</div>
+    <div id="page-title" class="position-absolute m-3 dancing-script">Tinas Tierchen</div>
 
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
