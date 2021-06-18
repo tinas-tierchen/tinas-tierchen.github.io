@@ -114,13 +114,118 @@ $pages = [
         'description' => '…',
         'items' => [
             [
-                'src' => 'haarbaender.jpeg',
+                'src' => 'klamotten/haarbaender.jpeg',
                 'name' => 'Haarbänder',
                 'description' => '…',
             ],
             [
-                'src' => 'haarband_hellblau.jpeg',
+                'src' => 'klamotten/haarband_grau.jpeg',
                 'name' => 'Hellblaues Haarband',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/asynchron_gehaekelt.jpg',
+                'name' => 'Asynchron gehäkelt',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/bereit_fuer_den_herbst.jpg',
+                'name' => 'Bereit für den Herbst',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/ein_hauch_von_masche.jpg',
+                'name' => 'Ein Hauch von Masche',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/einfaches_strick_top.jpg',
+                'name' => 'Einfaches Strick-Top',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/einfaches_top_mit_lochmuster.jpg',
+                'name' => 'Einfaches Top mit Lochmuster',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/ganz_schoen_schraeg.jpg',
+                'name' => 'Ganz schön Schräg',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/grauer_kurzarmpulli_mit_lochmusterleiste.jpg',
+                'name' => 'Grauer Kurzarmpulli mit Lochmusterleiste',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/mode_zum_quadrat.jpg',
+                'name' => 'Mode zum Quadrat',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/perfekt_fuer_kuehle_herbsttage.jpg',
+                'name' => 'Perfekt für kühle Herbsttage',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/pulli_mit_trompetenaermeln.jpg',
+                'name' => 'Pulli mit Trompetenärmeln',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/pullover_in_lila_toenen.jpg',
+                'name' => 'Pullover in lila Tönen',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/retro_look.jpg',
+                'name' => 'Retro Look',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/schlichte_eleganz.jpg',
+                'name' => 'Schlichte Eleganz',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/schwarz_ist_nie_out.jpg',
+                'name' => 'Schwarz ist nie out',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/schwarz_weiss_mix.jpg',
+                'name' => 'Schwarz-Weiß-Mix',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/schwarzer_pulli_fuer_kalte_tage.jpg',
+                'name' => 'Schwarzer Pulli für kalte Tage',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/sommerliches_oberteil.jpg',
+                'name' => 'Sommerliches Oberteil',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/traum_in_tuerkis.jpg',
+                'name' => 'Traum in Türkis',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/upcycling.jpg',
+                'name' => 'Upcycling',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/weisses_sommeroberteil.jpg',
+                'name' => 'Weißes Sommeroberteil',
+                'description' => '…',
+            ],
+            [
+                'src' => 'klamotten/zu_streifen_greifen.jpg',
+                'name' => 'Zu Streifen greifen',
                 'description' => '…',
             ],
         ],

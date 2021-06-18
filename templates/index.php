@@ -35,7 +35,7 @@
                 <div class="card-body text-center">
                     <h3 class="mt-4 dancing-script">Amigurumi Tierchen</h3>
                 </div>
-                <a href="tierchen.html"><img class="d-block mx-auto mb-4" src="img/tiger.jpeg" width="256" alt="Roary der Tiger"/></a>
+                <a href="tierchen.html"><img class="d-block mx-auto mb-4" src="img_256/tiger.jpeg" width="256" alt="Roary der Tiger"/></a>
             </div>
         </div>
 
@@ -44,7 +44,7 @@
                 <div class="card-body text-center">
                     <h3 class="mt-4 dancing-script">Boardgame Zubehör</h3>
                 </div>
-                <a href="boardgame.html"><img class="d-block mx-auto mb-4" src="img/maus_und_mystik.jpeg" width="256" alt="Maus &amp; Mystik Täschchen"/></a>
+                <a href="boardgame.html"><img class="d-block mx-auto mb-4" src="img_256/maus_und_mystik.jpeg" width="256" alt="Maus &amp; Mystik Täschchen"/></a>
             </div>
         </div>
 
@@ -53,7 +53,7 @@
                 <div class="card-body text-center">
                     <h3 class="mt-4 dancing-script">Kleine Nerd Ecke</h3>
                 </div>
-                <a href="nerds.html"><img class="d-block mx-auto mb-4" src="img/tentakel.jpeg" width="256" alt="Purpur &amp; Grün Tentakel"/></a>
+                <a href="nerds.html"><img class="d-block mx-auto mb-4" src="img_256/tentakel.jpeg" width="256" alt="Purpur &amp; Grün Tentakel"/></a>
             </div>
         </div>
 
@@ -62,7 +62,7 @@
                 <div class="card-body text-center">
                     <h3 class="mt-4 dancing-script">Pflanzen</h3>
                 </div>
-                <a href="pflanzen.html"><img class="d-block mx-auto mb-4" src="img/kakteen.jpeg" width="256" alt="Kakteen"/></a>
+                <a href="pflanzen.html"><img class="d-block mx-auto mb-4" src="img_256/kakteen.jpeg" width="256" alt="Kakteen"/></a>
             </div>
         </div>
     </div>
@@ -73,7 +73,7 @@
                 <div class="card-body text-center">
                     <h3 class="mt-4 dancing-script">Klamotten</h3>
                 </div>
-                <a href="klamotten.html"><img class="d-block mx-auto mb-4" src="img/haarbaender.jpeg" width="256" alt="Haarbaender"/></a>
+                <a href="klamotten.html"><img class="d-block mx-auto mb-4" src="img_256/klamotten/haarbaender.jpeg" width="256" alt="Haarbaender"/></a>
             </div>
         </div>
     </div>
