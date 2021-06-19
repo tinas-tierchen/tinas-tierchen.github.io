@@ -26,55 +26,27 @@
     </button>
 </div>
 
+
 <div class="container">
     <h2 id="arbeiten" class="my-4 dancing-script">Meine Arbeiten</h2>
 
     <div class="row">
+        <?php foreach ($items as $id => $item) { ?>
+        <?php if ($id > 0 and $id % 4 === 0) { ?>    </div><div class="row mt-4"><?php } ?>
         <div class="col mb-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <div class="card-body text-center">
-                    <h3 class="mt-4 dancing-script"><a href="tierchen.html">Amigurumi Tierchen</a></h3>
+                    <h3 class="mt-4 dancing-script"><a href="<?php echo $item['href']; ?>"><?php echo htmlentities($item['name']); ?></a></h3>
                 </div>
-                <a href="tierchen.html"><img class="d-block mx-auto mb-4" src="img_256/tiger.jpeg" width="256" alt="Roary der Tiger"/></a>
-            </div>
-        </div>
+                <a href="<?php echo $item['href']; ?>"><img class="d-block mx-auto mb-4" src="img_256/<?php echo $item['src']; ?>" width="256" alt="<?php echo htmlentities($item['name']); ?>"/></a>
 
-        <div class="col mb-3">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body text-center">
-                    <h3 class="mt-4 dancing-script"><a href="boardgame.html">Boardgame Zubehör</a></h3>
+                <?php if (isset($item['description'])) { ?>
+                <div class="card-body">
+                    <p class="card-text"><?php echo htmlentities($item['description']); ?></p>
                 </div>
-                <a href="boardgame.html"><img class="d-block mx-auto mb-4" src="img_256/maus_und_mystik.jpeg" width="256" alt="Maus &amp; Mystik Täschchen"/></a>
+                <?php } ?>
             </div>
         </div>
-
-        <div class="col mb-3">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body text-center">
-                    <h3 class="mt-4 dancing-script"><a href="nerds.html">Kleine Nerd Ecke</a></h3>
-                </div>
-                <a href="nerds.html"><img class="d-block mx-auto mb-4" src="img_256/tentakel.jpeg" width="256" alt="Purpur &amp; Grün Tentakel"/></a>
-            </div>
-        </div>
-
-        <div class="col mb-3">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body text-center">
-                    <h3 class="mt-4 dancing-script"><a href="pflanzen.html">Pflanzen</a></h3>
-                </div>
-                <a href="pflanzen.html"><img class="d-block mx-auto mb-4" src="img_256/kakteen.jpeg" width="256" alt="Kakteen"/></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col mb-3">
-            <div class="card" style="width: 18rem;">
-                <div class="card-body text-center">
-                    <h3 class="mt-4 dancing-script"><a href="klamotten.html">Klamotten</a></h3>
-                </div>
-                <a href="klamotten.html"><img class="d-block mx-auto mb-4" src="img_256/klamotten/haarbaender.jpeg" width="256" alt="Haarbaender"/></a>
-            </div>
-        </div>
+        <?php } ?>
     </div>
 </div>

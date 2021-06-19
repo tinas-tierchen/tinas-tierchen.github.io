@@ -4,6 +4,33 @@ $pages = [
     [
         'file' => 'index.html',
         'template' => 'index',
+        'items' => [
+            [
+                'src' => 'tiger.jpeg',
+                'name' => 'Amigurumi Tierchen',
+                'href' => 'tierchen.html',
+            ],
+            [
+                'src' => 'maus_und_mystik.jpeg',
+                'name' => 'Boardgame Zubehör',
+                'href' => 'boardgame.html',
+            ],
+            [
+                'src' => 'tentakel.jpeg',
+                'name' => 'Kleine Nerd Ecke',
+                'href' => 'nerds.html',
+            ],
+            [
+                'src' => 'kakteen.jpeg',
+                'name' => 'Pflanzen',
+                'href' => 'pflanzen.html',
+            ],
+            [
+                'src' => 'klamotten/haarbaender.jpeg',
+                'name' => 'Klamotten',
+                'href' => 'klamotten.html',
+            ],
+        ],
     ],
     [
         'file' => 'tierchen.html',
