@@ -16,7 +16,7 @@
                 <img class="d-block mx-auto mb-4" src="img_256/<?php echo $item['src']; ?>" width="256" alt="<?php echo $item['name']; ?>"/>
                 <div class="card-body">
                     <h5 class="card-title"><?php echo htmlentities($item['name']); ?></h5>
-                    <p class="card-text"><?php echo htmlentities($item['description']); ?></p>
+                    <?php if (isset($item['description'])) { ?><p class="card-text"><?php echo htmlentities($item['description']); ?></p><?php } ?>
                 </div>
             </div>
         </div>

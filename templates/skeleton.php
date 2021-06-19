@@ -16,7 +16,7 @@
     <?php echo $content; ?>
 
     <div class="container">
-        <h2 class="mt-4 dancing-script">Kontakt</h2>
+        <h2 class="my-4 dancing-script">Kontakt</h2>
         <div>
             <div>Tina Jung</div>
             <div>+49 6306 3330915</div>
