@@ -135,7 +135,7 @@ $pages = [
             ],
             [
                 'src' => 'klamotten/haarband_grau.jpeg',
-                'name' => 'Hellblaues Haarband',
+                'name' => 'Graues Haarband',
                 'description' => '…',
             ],
             [
