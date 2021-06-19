@@ -36,6 +36,21 @@ $pages = [
                 'name' => 'Dakota der Welpe',
                 'description' => 'Dakota ist lieb, knuffig und passt genau auf die Handfläche, so dass er dich überall hin begleiten kann. Dakota ist ein verspielter Welpe, neugierig und voller Energie. Seine langen Ohren flattern im Wind, wenn er auf seinen winzigen Pfötchen angelaufen kommt.',
             ],
+            [
+                'src' => 'maus.jpg',
+                'name' => 'Manfred die Maus',
+                'description' => 'Manfred ist vielleicht klein, hat aber immer Lust auf große Abenteuer. Er hat eine blühende Fantasie, doch solange er nicht nachdenkt, bevor er loslegt, bringt er sich immer wieder in unmögliche Situationen.',
+            ],
+            [
+                'src' => 'papagei7.jpeg',
+                'name' => 'Papagei',
+                'description' => '…',
+            ],
+            [
+                'src' => 'lemur.jpeg',
+                'name' => 'Lemur',
+                'description' => '…',
+            ],
         ],
     ],
     [
