@@ -84,22 +84,22 @@ $pages = [
         'file' => 'boardgame.html',
         'template' => 'category',
         'title' => 'Boardgame Zubehör',
-        'description' => '…',
+        'description' => 'Auch Brettspiele und Häkeln lassen sich bestens kombinieren.',
         'items' => [
             [
                 'src' => 'maus_und_mystik.jpeg',
                 'name' => 'Maus & Mystik Täschchen',
-                'description' => '…',
+                'description' => 'Alles praktisch verpackt und beschriftet. So geht nichts mehr verloren.',
             ],
             [
                 'src' => 'wuerfelbeutel.jpeg',
                 'name' => 'Würfeluntersetzer',
-                'description' => '…',
+                'description' => 'Praktisches Gimmick für alle Würfelspiele. Lässt sich auf- und zukletten an den Ecken',
             ],
             [
                 'src' => 'stoffies.jpeg',
-                'name' => 'Stoffies',
-                'description' => '…',
+                'name' => 'Stampfi und Pinky',
+                'description' => 'Zwei Figuren aus den Stoffi-Chroniken.',
             ],
         ],
     ],
@@ -246,6 +246,18 @@ $pages = [
             [
                 'src' => 'klamotten/zu_streifen_greifen.jpg',
                 'name' => 'Zu Streifen greifen',
+            ],
+            [
+                'src' => 'klamotten/schneller_ueberwurf.jpg',
+                'name' => 'Schneller Überwurf',
+            ],
+            [
+                'src' => 'klamotten/stola_aus_sockenwolle.jpg',
+                'name' => 'Stola aus Sockenwolle',
+            ],
+            [
+                'src' => 'klamotten/fruehlings_weste.jpg',
+                'name' => 'Frühlings-Weste',
             ],
         ],
     ],
