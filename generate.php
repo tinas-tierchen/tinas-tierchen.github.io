@@ -75,7 +75,7 @@ $pages = [
             ],
             [
                 'src' => 'lemur.jpeg',
-                'name' => 'Sartu Lemur',
+                'name' => 'Sartu der Lemur',
                 'description' => 'Wenn dich der kleine Sartu mit seinen großen Augen ansieht und lächelt, ist es um dich geschehen. Den charmanten Lemuren muss man einfach mögen. Wegen seines prächtigen Schwanzes beneiden ihn die anderen Tiere aber ziemlich oft.',
             ],
         ],
