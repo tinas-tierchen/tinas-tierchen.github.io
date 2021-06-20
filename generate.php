@@ -71,7 +71,7 @@ $pages = [
             [
                 'src' => 'papagei7.jpeg',
                 'name' => 'Pepe der Papagei',
-                'description' => '…',
+                'description' => 'In seinem prächtigen bunten Federkleid, liebt es Pepe ganz entspannt auf dem Baum zu sitzen und die anderen Tiere zu betrachten und ihre Wörter zu lernen.',
             ],
             [
                 'src' => 'lemur.jpeg',
@@ -107,27 +107,22 @@ $pages = [
         'file' => 'nerds.html',
         'template' => 'category',
         'title' => 'Kleine Nerd Ecke',
-        'description' => '…',
         'items' => [
             [
                 'src' => 'yoshi.jpeg',
                 'name' => 'Yoshi mit Ei',
-                'description' => '…',
             ],
             [
                 'src' => 'pilze.jpeg',
                 'name' => 'PowerUp und LevelUp Pilze',
-                'description' => '…',
             ],
             [
                 'src' => 'stern.jpeg',
                 'name' => 'Stern',
-                'description' => '…',
             ],
             [
                 'src' => 'tentakel.jpeg',
                 'name' => 'Purpur & Grün Tentakel',
-                'description' => '…',
             ],
         ],
     ],
@@ -135,17 +130,17 @@ $pages = [
         'file' => 'pflanzen.html',
         'template' => 'category',
         'title' => 'Pflanzen',
-        'description' => '…',
+        'description' => 'Das Praktische an gehäkelten Pflanzen: Man muss sie nicht giesen und sie blühen immer.',
         'items' => [
             [
                 'src' => 'kakteen.jpeg',
                 'name' => 'Kakteen',
-                'description' => '…',
+                'description' => 'Diese niedlichen Kakteen habe ich als Gastgeschenke für meine Hochzeit gehäkelt.',
             ],
             [
                 'src' => 'blume.jpeg',
                 'name' => 'Blume',
-                'description' => '…',
+                'description' => 'Auch ohne Wasser blüht sie immer.',
             ],
         ],
     ],
@@ -153,7 +148,7 @@ $pages = [
         'file' => 'klamotten.html',
         'template' => 'category',
         'title' => 'Klamotten',
-        'description' => '…',
+        'description' => 'Im Laufe der Jahre haben sich so einige Klamotten angesammelt. Ist ja auch kein Wunder, bei so vielen verschiedenen Möglichkeiten. Ich hatte mir eigentlich vorgenommen keine mehr zu Häkeln, da mein Kleiderschrank bereits randvoll ist, aber wenn ich ein cooles Teil sehe kann ich irgendwie nicht anders.',
         'items' => [
             [
                 'src' => 'klamotten/haarbaender.jpeg',
