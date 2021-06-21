@@ -39,27 +39,49 @@ $pages = [
         'description' => 'Vor einigen Jahren bin ich durch Zufall auf die Anleitung eines süßen kleinen Tierchens gestoßen. Seitdem haben mich diese Tierchen nicht mehr losgelassen, denn wer könnte so kleinen süßen Knopfaugen widerstehen. Im Laufe der Jahre habe ich so einige Tierchen gehäkelt und die Freude daran möchte ich gerne mit euch teilen.',
         'items' => [
             [
-                'src' => 'tiger.jpeg',
+                'src' => [
+                    'tiger.jpeg',
+                    'tiger2.jpeg',
+                ],
                 'name' => 'Roary der Tiger',
                 'description' => 'Jedes Tier im Dschungel kennt den kleinen, frechen Tiger Roary. Verschmitzt und gewitzt, wie er ist, hat er häufig nur Dummheiten im Kopf. Aber lange kann ihm keiner böse sein. Denn in diesem Tigerchen steckt natürlich auch ein bisschen Miezekatze.',
             ],
             [
-                'src' => 'elch.jpeg',
+                'src' => [
+                    'elch.jpeg',
+                    'elch2.jpeg',
+                    'elch3.jpeg',
+                ],
                 'name' => 'Morton der Elch',
                 'description' => 'Der Elch Morton erregt mit seinem prächtigen Geweih überall Aufmerksamkeit. Und das genießt er sichtlich. Morton kommt aus dem hohen Norden und ist Kälte und Schnee gewöhnt. Aber ganz ehrlich … nichts geht ihm über ein Nickerchen vor dem offenen Kamin.',
             ],
             [
-                'src' => 'hase.jpeg',
+                'src' => [
+                    'hase.jpeg',
+                    'hase2.jpeg',
+                    'hase3.jpeg',
+                ],
                 'name' => 'Wasabi das Häschen',
                 'description' => 'Verspielt, eigensinnig und fröhlich, so ist das Häschen Wasabi. Es findet nichts lustiger, als mit seinen Freunden um die Wette zu rennen, denn im Hakenschlagen und Über-Hindernisse-Springens ist es unschlagbar. Und wer so schnell laufen kann, der ist auch gut im Streiche spielen…',
             ],
             [
-                'src' => 'tukan.jpeg',
+                'src' => [
+                    'tukan.jpeg',
+                    'tukan2.jpeg',
+                    'tukan3.jpeg',
+                ],
                 'name' => 'Zico der Tukan',
                 'description' => 'Sieht der Tukan Zico mit seinem glänzend schwarzen Federkleid und dem leuchtend gelben Schnabel nicht richtig majestätisch aus? Als König der Paradiesvögel spreizt er jeden Tag seine Flügel und macht einen ausgedehnten Spazierflug durch den Regenwald.',
             ],
             [
-                'src' => 'welpe6.jpeg',
+                'src' => [
+                    'welpe.jpeg',
+                    'welpe2.jpeg',
+                    'welpe3.jpeg',
+                    'welpe4.jpeg',
+                    'welpe5.jpeg',
+                    'welpe6.jpeg',
+                ],
                 'name' => 'Dakota der Welpe',
                 'description' => 'Dakota ist lieb, knuffig und passt genau auf die Handfläche, so dass er dich überall hin begleiten kann. Dakota ist ein verspielter Welpe, neugierig und voller Energie. Seine langen Ohren flattern im Wind, wenn er auf seinen winzigen Pfötchen angelaufen kommt.',
             ],
@@ -69,12 +91,24 @@ $pages = [
                 'description' => 'Manfred ist vielleicht klein, hat aber immer Lust auf große Abenteuer. Er hat eine blühende Fantasie, doch solange er nicht nachdenkt, bevor er loslegt, bringt er sich immer wieder in unmögliche Situationen.',
             ],
             [
-                'src' => 'papagei7.jpeg',
+                'src' => [
+                    'papagei.jpeg',
+                    'papagei2.jpeg',
+                    'papagei3.jpeg',
+                    'papagei4.jpeg',
+                    'papagei5.jpeg',
+                    'papagei6.jpeg',
+                    'papagei7.jpeg',
+                ],
                 'name' => 'Pepe der Papagei',
                 'description' => 'In seinem prächtigen bunten Federkleid, liebt es Pepe ganz entspannt auf dem Baum zu sitzen und die anderen Tiere zu betrachten und ihre Wörter zu lernen.',
             ],
             [
-                'src' => 'lemur.jpeg',
+                'src' => [
+                    'lemur.jpeg',
+                    'lemur2.jpeg',
+                    'lemur3.jpeg',
+                ],
                 'name' => 'Sartu der Lemur',
                 'description' => 'Wenn dich der kleine Sartu mit seinen großen Augen ansieht und lächelt, ist es um dich geschehen. Den charmanten Lemuren muss man einfach mögen. Wegen seines prächtigen Schwanzes beneiden ihn die anderen Tiere aber ziemlich oft.',
             ],
@@ -92,12 +126,18 @@ $pages = [
                 'description' => 'Alles praktisch verpackt und beschriftet. So geht nichts mehr verloren.',
             ],
             [
-                'src' => 'wuerfelbeutel.jpeg',
+                'src' => [
+                    'wuerfelbeutel.jpeg',
+                    'wuerfelbeutel2.jpeg',
+                ],
                 'name' => 'Würfeluntersetzer',
                 'description' => 'Praktisches Gimmick für alle Würfelspiele. Lässt sich auf- und zukletten an den Ecken',
             ],
             [
-                'src' => 'stoffies.jpeg',
+                'src' => [
+                    'stoffies.jpeg',
+                    'stoffies2.jpeg',
+                ],
                 'name' => 'Stampfi und Pinky',
                 'description' => 'Zwei Figuren aus den Stoffi-Chroniken.',
             ],
@@ -113,11 +153,19 @@ $pages = [
                 'name' => 'Yoshi mit Ei',
             ],
             [
-                'src' => 'pilze.jpeg',
+                'src' => [
+                    'pilze.jpeg',
+                    'pilze2.jpeg',
+                    'pilze3.jpeg',
+                ],
                 'name' => 'PowerUp und LevelUp Pilze',
             ],
             [
-                'src' => 'stern.jpeg',
+                'src' => [
+                    'stern.jpeg',
+                    'stern2.jpeg',
+                    'stern3.jpeg',
+                ],
                 'name' => 'Stern',
             ],
             [
@@ -133,12 +181,18 @@ $pages = [
         'description' => 'Das Praktische an gehäkelten Pflanzen: Man muss sie nicht giesen und sie blühen immer.',
         'items' => [
             [
-                'src' => 'kakteen.jpeg',
+                'src' => [
+                    'kakteen.jpeg',
+                    'kakteen2.jpeg',
+                ],
                 'name' => 'Kakteen',
                 'description' => 'Diese niedlichen Kakteen habe ich als Gastgeschenke für meine Hochzeit gehäkelt.',
             ],
             [
-                'src' => 'blume.jpeg',
+                'src' => [
+                    'blume.jpeg',
+                    'blume2.jpeg',
+                ],
                 'name' => 'Blume',
                 'description' => 'Auch ohne Wasser blüht sie immer.',
             ],
