@@ -1,4 +1,4 @@
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="bootstrap.min.js"></script>
 
 <div class="container">
     <div class="mt-4">
@@ -18,7 +18,7 @@
 
                 <?php if (is_array($item['src'])) { ?>
 
-                <div id="carousel<?php echo $id; ?>" class="carousel slide" data-bs-ride="carousel">
+                <div id="carousel<?php echo $id; ?>" class="carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <?php foreach($item['src'] as $imgId => $src) { ?>
                         <div class="carousel-item<?php if (0 === $imgId) echo ' active'; ?>">
