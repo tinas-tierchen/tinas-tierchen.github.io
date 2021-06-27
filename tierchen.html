@@ -730,7 +730,7 @@
             }
         };
 
-        Array.prototype.forEach.call(document.getElementsByClassName('pop'), function(el, i){
+        Array.prototype.forEach.call(document.getElementsByClassName('pop'), function(el){
             el.addEventListener('click', function() {
                 document.getElementById('image-preview').setAttribute('src', this.getAttribute('src').replace('img_256/', 'img/'));
                 document.getElementById('image-title').innerText = this.dataset.name;
