@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tinas Tierchen</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <script src="bootstrap.min.js"></script>
+
+    <div class="container">
+        <div class="mt-4">
+            <a href="index.html#arbeiten" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Zurück</a>
+        </div>
+
+        <h2 class="my-4 dancing-script">Gemütliches Zuhause</h2>
+        
+        <div class="row">
+                                    <div class="col mb-3">
+                <div class="card">
+
+                                        <img
+                            class="d-block mx-auto mb-4 pop"
+                            src="img_256/zuhause/tepich.jpg"
+                            width="256"
+                            data-name="Tepich"
+                            alt="Tepich"
+                    />
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Tepich</h5>
+                                            </div>
+                </div>
+            </div>
+                                    <div class="col mb-3">
+                <div class="card">
+
+                                        <img
+                            class="d-block mx-auto mb-4 pop"
+                            src="img_256/zuhause/wandtepich.jpg"
+                            width="256"
+                            data-name="Wandtepich"
+                            alt="Wandtepich"
+                    />
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Wandtepich</h5>
+                                            </div>
+                </div>
+            </div>
+                                    <div class="col mb-3">
+                <div class="card">
+
+                                        <img
+                            class="d-block mx-auto mb-4 pop"
+                            src="img_256/zuhause/patchwork_tagesdecke.jpg"
+                            width="256"
+                            data-name="Patchwork Tagesdecke"
+                            alt="Patchwork Tagesdecke"
+                    />
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Patchwork Tagesdecke</h5>
+                                            </div>
+                </div>
+            </div>
+                                    <div class="col mb-3">
+                <div class="card">
+
+                                        <img
+                            class="d-block mx-auto mb-4 pop"
+                            src="img_256/zuhause/decke_sophies_garden_blau.jpg"
+                            width="256"
+                            data-name="Decke Sophies Garden"
+                            alt="Decke Sophies Garden"
+                    />
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Decke Sophies Garden</h5>
+                        <p class="card-text">Diese Decke machte mir so viel Spaß zu häkeln, dass ich sie gleich dreimal in verschiedenen Farben häkelte.</p>                    </div>
+                </div>
+            </div>
+                    </div>
+
+        <div class="mt-4">
+            <a href="index.html#arbeiten" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Zurück</a>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row mb-4">
+                        <div class="col-9">
+                            <h2 id="image-title"></h2>
+                        </div>
+                        <div class="col-3 text-end">
+                            <button class="btn btn-secondary btn-lg active" onclick="closeModal()">X</button>
+                        </div>
+                    </div>
+
+                    <img src="" id="image-preview" style="width: 100%;" alt="Vergrößertes Bild">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop fade show" id="backdrop" style="display: none;"></div>
+
+    <script type="application/javascript">
+        function openModal() {
+            document.getElementById("backdrop").style.display = "block";
+            document.getElementById("imagemodal").style.display = "block";
+            document.getElementById("imagemodal").classList.add("show");
+        }
+        function closeModal() {
+            document.getElementById("backdrop").style.display = "none";
+            document.getElementById("imagemodal").style.display = "none";
+            document.getElementById("imagemodal").classList.remove("show");
+        }
+
+        var modal = document.getElementById('imagemodal');
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                closeModal();
+            }
+        };
+
+        Array.prototype.forEach.call(document.getElementsByClassName('pop'), function(el, i){
+            el.addEventListener('click', function() {
+                document.getElementById('image-preview').setAttribute('src', this.getAttribute('src').replace('img_256/', 'img/'));
+                document.getElementById('image-title').innerText = this.dataset.name;
+                openModal();
+            });
+        });
+    </script>
+
+    <div class="container">
+        <h2 class="my-4 dancing-script">Kontakt</h2>
+        <div>
+            <div>Tina Jung</div>
+            <div>+49 6306 3330915</div>
+            <div>tina.mona.jung+tt@gmail.com</div>
+            <div>Am Nabenberg 16, 67705 Trippstadt</div>
+            <div><a href="https://www.instagram.com/tinas_tierchen" target="_blank">www.instagram.com/tinas_tierchen</a></div>
+        </div>
+    </div>
+</body>
+</html>
