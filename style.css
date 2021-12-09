@@ -6,6 +6,15 @@
     width: 18rem;
 }
 
+.card.wide-card {
+    width: 24rem;
+}
+
+.card .carousel {
+    width: 256px;
+    margin: auto;
+}
+
 #page-title {
     padding: 0 0.25em;
     background-color: #fff;
