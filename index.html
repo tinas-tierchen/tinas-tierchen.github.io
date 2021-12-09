@@ -615,7 +615,7 @@
         </div>
     </div>
 
-    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
@@ -628,33 +628,36 @@
                     </div>
                 </div>
 
-                <img src="" id="image-preview" style="width: 100%;" alt="Vergrößertes Bild">
+                <img src="" id="image-preview" class="w-100" alt="Vergrößertes Bild">
             </div>
         </div>
     </div>
 </div>
-<div class="modal-backdrop fade show" id="backdrop" style="display: none;"></div>
+<div class="modal-backdrop fade show d-none" id="backdrop"></div>
 
 <script type="application/javascript">
+    let imageModal = document.getElementById('imageModal');
+    let backdrop = document.getElementById('backdrop');
+
     function openModal() {
-        document.getElementById("backdrop").style.display = "block";
-        document.getElementById("imagemodal").style.display = "block";
-        document.getElementById("imagemodal").classList.add("show");
-    }
-    function closeModal() {
-        document.getElementById("backdrop").style.display = "none";
-        document.getElementById("imagemodal").style.display = "none";
-        document.getElementById("imagemodal").classList.remove("show");
+        backdrop.classList.remove('d-none');
+        imageModal.style.display = 'block';
+        imageModal.classList.add('show');
     }
 
-    let modal = document.getElementById('imagemodal');
+    function closeModal() {
+        backdrop.classList.add('d-none');
+        imageModal.style.display = 'none';
+        imageModal.classList.remove('show');
+    }
+
     window.onclick = function(event) {
-        if (event.target === modal) {
+        if (event.target === imageModal) {
             closeModal();
         }
     };
 
-    Array.prototype.forEach.call(document.getElementsByClassName('pop'), function(el){
+    Array.prototype.forEach.call(document.getElementsByClassName('pop'), function(el) {
         el.addEventListener('click', function() {
             document.getElementById('image-preview').setAttribute('src', this.getAttribute('src').replace('img_256/', 'img/'));
             document.getElementById('image-title').innerText = this.dataset.name;
