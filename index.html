@@ -679,5 +679,10 @@ Der Preis bezieht sich auf einen Kaktus.</p>        <p class="card-text text-mut
             openModal();
         });
     });
-</script></body>
+</script>
+    <script type="application/javascript">
+        const colorMode = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.querySelector('html').setAttribute('data-bs-theme', colorMode);
+    </script>
+</body>
 </html>
